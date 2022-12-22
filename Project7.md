@@ -1,17 +1,7 @@
 # DEVOPS TOOLING WEBSITE SOLUTION
 
-The Purpose of this project is to be able to implement a tooling website solution which makes access to Devops tools within the corporate infrastructure easily accessible. The project will implement a solution that consist of the following components:
-
-- Infrastructure: AWS
-- Webserver Linux: Redhat Enterprise Linux 8
-- Database Server: Ubuntu 20.04 + MySQL
-- Storage Server: Redhat Enterprise Linux 8 + NFS Server
-- Programming Language: PHP
-- Code Repository: Github
-
-![3-Tier web application architecture with a single Database and an NFS Server as a shared files storage](images/3-Tier-web-app-arch..png)
-*the image above shows 3 stateless Web Servers sharing a common database and also accessing same files using Network File System as a shared filed storage*
-
+The Purpose of this project is to be able to implement a tooling website solution which makes access to Devops tools within the corporate infrastructure easily accessible. The project will implement a solution that consist of the following components.
+Below are the steps or commands followed to achieve the aim of this project:
 ## Prepare NFS Server
 
 - Launched a new EC2 instance with RHEL Linux Linux 8 Operating System and named the server NFS.
